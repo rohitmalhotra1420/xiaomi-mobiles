@@ -1,0 +1,269 @@
+body{
+margin:0;
+
+}
+header{
+background:url('http://i.imgur.com/TlS7qx9.jpg');
+background-size: 100% 100%;
+height:550px;
+width:auto;
+
+}
+div{
+position:relative;
+}
+li.p{
+display:inline;
+padding:0px 10px 0px 80px;
+font-family:Comic sans ms;
+}
+ul.ul0{
+padding:30px 30px 0px 30px;
+margin-top:0px;
+margin-bottom:0px;
+}
+a{
+color:white;
+}
+img.upper{
+padding:10px 10px 40px 20px;
+width:49px;
+height:55px;
+}
+h1{
+font-family:Comic sans ms;
+color:white;
+padding-left:80px;
+}
+p.upperp{
+font-family:Comic sans ms;
+color:white;
+padding-left:80px;
+}
+h2{
+font-family:Comic sans ms;
+color:white;
+padding-left:85px;
+}
+input{
+border:0px;
+font-size:25px;
+font-family:Comic sans ms;
+}
+input[type="submit"]{
+background:rgba(0,0,0,0.5);
+color:white;
+margin-left:80px;
+padding-left:20px;
+padding-right:20px;
+}
+ul.ul1{
+background:rgba(0,0,0,0.9);
+margin-top:0px;
+margin-bottom:0px;
+padding-top:10px;
+padding-bottom:25px;
+list-style:none;
+}
+
+li.a{
+float:left;
+font-family:BEll MT;
+padding-left:0px;
+padding-right:20px;
+}
+li.b{
+float:right;
+font-family:BEll MT;
+padding-left:10px;
+padding-right:25px;
+}
+h1.secondh1{
+color:rgba(0,0,0,0.8);
+text-align:center;
+font-family: 'Raleway', sans-serif;
+padding-left:0px;
+}
+
+img.upper2{
+  display:block;
+height: 380px;
+width:auto;  
+}
+.firstd{
+ font-size:20px;
+  float: left;
+  margin: 5px;
+  padding: 10px;
+  height: 380px;
+width:auto;
+}
+.fixed {
+  height: 380px;
+width:auto;
+ font-size:20px;
+  float: left;
+  margin: 5px;
+  padding: 10px;
+
+  }
+.third{
+display:block;
+  height: 380px;
+width:593px;
+float:right;
+padding-top:73px;
+ font-size:20px;
+  float: left;
+  margin: 70px 5px 5px 5px;
+  padding: 10px;
+
+}
+.fourth{
+  height: 380px;
+width:593px;
+ font-size:20px;
+  float: left;
+  margin: 70px 5px 5px 5px;  
+  padding: 10px;
+
+}
+
+h1.thirdh1{
+color:rgba(0,0,0,0.8);
+text-align:center;
+font-family: 'Raleway', sans-serif;
+float:left;
+margin-top:80px;
+font-size:55px;
+}
+p.p2{
+color:white;
+font-family:Bookman old style;
+background:black;
+background:linear-gradient(bottom,rgba(0,0,0,1),rgba(0,0,0,0.2));
+background:-moz-linear-gradient(bottom,rgba(0,0,0,1),rgba(0,0,0,0.2));
+background:-webkit-linear-gradient(bottom,rgba(0,0,0,1),rgba(0,0,0,0.2));
+font-size:20px;
+line-height:40px;
+height:60px;
+width:600px;
+text-align:left;
+padding-right:20px;
+padding-left:20px;
+position:absolute;
+border-radius:10px;
+margin-bottom:0;
+float:left;
+bottom:0;
+-webkit-transition:height .5s;
+-moz-transition:height .5s;
+}
+small{
+opacity:0;
+}
+.show-description p.p2{
+height:300px;
+}
+.show-description small{
+opacity:1;
+}
+.fifth{
+background-image:url("http://i.imgur.com/keqgH3t.jpg");
+height:670px;
+width:auto;
+border-radius:20px;
+background-size:cover;
+position:relative;
+margin-top: 200px;
+margin-bottom:100px;
+
+}
+.sixth{
+background-image:url("http://i.imgur.com/4Ygsfi9.jpg");
+height:670px;
+width:auto;
+border-radius:20px;
+background-size:cover;
+position:relative;
+
+margin-bottom:100px;
+}
+.seventh{
+background-image:url("http://i.imgur.com/JYENFU9.jpg");
+height:670px;
+width:auto;
+border-radius:20px;
+background-size:cover;
+position:relative;
+margin-bottom:100px;
+
+}
+.price{
+float:right;
+}
+footer{
+background:rgba(0,0,0,0.9);
+height:330px;
+width:auto;
+margin-left:-10px;
+margin-right:-10px;
+}
+li.c{
+display:inline;
+font-family:BEll MT;
+padding-right:80px;
+}
+li.d{
+display:inline;
+font-family:BEll MT;
+padding-right:110px;
+
+}
+li.e{
+display:inline;
+padding-right:130px;
+font-family:BEll MT;
+}
+li.f{
+display:inline;
+font-family:BEll MT;
+padding-right:115px;
+}
+a{
+color:white;
+}
+ul.ul2{
+padding-bottom:10px;
+padding-top:50px;
+}
+h4{
+font-family:BEll MT;
+color:white;
+padding-left:35px;
+padding-top:70px;
+}
+@media (max-width: 400px) {
+ul.ul1{
+width:1210px;
+}
+header{
+width:1250px;
+}
+h1.secondh1{
+padding-right:600px;
+}
+
+.fixed{
+margin-top:70px;
+}
+.fifth{
+margin-top:70px;
+}
+footer{
+width:1260px;
+}
+h1.thirdh1{
+margin-right:400px;
+}
+}
